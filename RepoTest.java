@@ -7,9 +7,9 @@ public class RepoTest {
 		System.out.println("What year were you born?");
 		
 		Scanner input = new Scanner(System.in);
-		int year = input.nextInt();
+		int yearborn = input.nextInt();
 		
-		int age = 2021 - year;
+		int age = 2021 - yearborn;
 		
 		System.out.println("You are " + age);
 		
